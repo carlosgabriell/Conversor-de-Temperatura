@@ -1,0 +1,98 @@
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 400px;
+  background-image: "";
+  background-color: #161a1d;
+  background-size: 15vh;
+  background-position: top 10px left 5px;
+  background-repeat: no-repeat;
+}
+
+.termometro {
+  width: 90px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.container {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #fff;
+  margin: 0 0 5px;
+}
+
+.page-logo {
+  width: 300px;
+}
+
+.alura-logo {
+  width: 70px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+border {
+  background: -webkit-linear-gradient(to left, #d4a50d, #f1da0d);
+  background: linear-gradient(to left, #d4a50d, #f1da0d);
+}
+#container {
+  margin: 0 auto;
+  width: auto;
+  display: table;
+  text-align: center;
+}
+
+#convert {
+  margin-top: 2%;
+  background-color: #5a189a;
+}
+#clear {
+  margin-top: 2%;
+  background-color: #ff9e00;
+}
+
+#convert:hover {
+  background-color: #ff9e00;
+}
+
+#clear:hover {
+  background-color: #5a189a;
+}
+
+h1 {
+  font-family: "Poppins" sans-serif;
+  color: #fff;
+}
+input {
+  display: center;
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 2em;
+  color: #f4a55a;
+  font-family: "Poppins", sans-serif;
+}
+::-webkit-input-placeholder {
+  color: #ccc;
+}
+:-moz-placeholder {
+  color: #ccc;
+}
+::-moz-placeholder {
+  color: #ccc;
+}
+:-ms-input-placeholder {
+  color: #ccc;
+}
+button {
+  padding: 10px;
+  border-radius: 50px;
+  border-bottom-width: 0px;
+  font-size: 1.1em;
+  color: #ffffff;
+}
